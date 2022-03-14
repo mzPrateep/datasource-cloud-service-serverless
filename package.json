@@ -1,0 +1,47 @@
+{
+  "name": "driver",
+  "version": "1.0.0",
+  "description": "Serverless aws-nodejs-typescript template",
+  "main": "servlerss.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@middy/core": "^1.5.0",
+    "@middy/http-json-body-parser": "^1.5.0",
+    "amazon-cognito-identity-js": "^4.5.12",
+    "aws-cli-js": "^2.2.2",
+    "aws-lambda": "^1.0.6",
+    "aws-sdk": "^2.828.0",
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4",
+    "moment-range": "^4.0.2",
+    "moment-timezone": "^0.5.33",
+    "request": "^2.88.2",
+    "serverless": "^2.28.0",
+    "serverless-dotenv-plugin": "^3.8.1",
+    "serverless-iam-roles-per-function": "^3.1.0",
+    "source-map-support": "^0.5.19",
+    "speakeasy": "^2.0.0"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "^2.16.0",
+    "@types/aws-lambda": "^8.10.64",
+    "@types/aws-sdk": "^2.7.0",
+    "@types/node": "^14.14.6",
+    "@types/speakeasy": "^2.0.5",
+    "fork-ts-checker-webpack-plugin": "^6.0.0",
+    "json-schema-to-ts": "^1.4.1",
+    "serverless-webpack": "^5.3.5",
+    "ts-loader": "^8.0.10",
+    "ts-node": "^9.1.1",
+    "tsconfig-paths-webpack-plugin": "^3.3.0",
+    "typescript": "^4.0.5",
+    "webpack": "^5.4.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "author": "The serverless webpack authors (https://github.com/elastic-coders/serverless-webpack)",
+  "license": "MIT"
+}

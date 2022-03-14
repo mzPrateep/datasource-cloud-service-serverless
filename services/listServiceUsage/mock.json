@@ -1,0 +1,20 @@
+{
+  "headers": {
+    "Content-Type": "application/json",
+    "rolearn": "arn:aws:iam::245747666211:role/ppa-master-role",
+    "rolesessionname": "MasterAccountCreate"
+  },
+  "body": {
+    "_id": "615ac528f93dec00290240c4",
+    "name": "mvrp-presentation",
+    "iamRole": "ppa-linked-role",
+    "masterIamRole": "ppa-master-role",
+    "type": "aws-inventory-datasource",
+    "accountId": "515836298674",
+    "masterId": "245747666211",
+    "createdAt": "2021-10-04T09:11:04.064Z",
+    "updatedAt": "2021-10-04T09:11:04.064Z",
+    "id": "615ac528f93dec00290240c4"
+  }
+
+}
